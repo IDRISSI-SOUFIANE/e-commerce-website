@@ -1,0 +1,39 @@
+:root {
+  --primary: #fc2b2b;
+  --second: #fa5300;
+  --bgColor: #2d2d2d;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--bgColor);
+  font-family: "Robot", sans-serif;
+  height: 100vh;
+}
+
+body::-webkit-scrollbar {
+  display: none; /* this disepear the scroll bar */
+}
+
+body {
+  overflow: hidden;
+  /* this propert disable the scroll in page*/
+}
